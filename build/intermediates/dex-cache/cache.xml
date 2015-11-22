@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Joan\AndroidStudioProjects\P03MathDice4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\Joan\AndroidStudioProjects\P03MathDice4\app\build\intermediates\pre-dexed\debug\classes-18cda49ddafeb546941c216afa86f157beb07e0a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Joan\AndroidStudioProjects\P03MathDice4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\Joan\AndroidStudioProjects\P03MathDice4\app\build\intermediates\pre-dexed\debug\classes-561285796f44c93658670f02fb5b83b78ca8e419.jar" />
+    </item>
+    <item
+        jar="C:\Users\Joan\AndroidStudioProjects\P03MathDice4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\Joan\AndroidStudioProjects\P03MathDice4\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-c1a6246f8b44734d902f6500ce1259c622b09695.jar" />
+    </item>
+    <item
+        jar="C:\Users\Joan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\Joan\AndroidStudioProjects\P03MathDice4\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-7d7fc74d838d0dade4e83495eda702d7efd63f67.jar" />
+    </item>
+
+</items>

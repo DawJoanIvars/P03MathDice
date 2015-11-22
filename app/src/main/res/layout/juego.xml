@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dado1_1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/dado1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dado1_2"
+        android:src="@drawable/dado1"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/dado1_1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dado2_1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="166dp"
+        android:src="@drawable/dado1_6" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dado2_2"
+        android:src="@drawable/dado1_6"
+        android:layout_alignTop="@+id/dado2_1"
+        android:layout_toEndOf="@+id/dado2_1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dado2_3"
+        android:src="@drawable/dado1_6"
+        android:layout_alignTop="@+id/dado2_2"
+        android:layout_toEndOf="@+id/dado2_2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hexagono"
+        android:src="@drawable/dode3"
+        android:layout_below="@+id/dado2_1"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/suma"
+        android:src="@drawable/suma"
+        android:layout_below="@+id/hexagono"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resta"
+        android:src="@drawable/resta"
+        android:layout_alignTop="@+id/suma"
+        android:layout_toEndOf="@+id/suma" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="[ ]"
+        android:id="@+id/operacion"
+        android:textIsSelectable="false"
+        android:textSize="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="_"
+        android:id="@+id/dado2"
+        android:textIsSelectable="false"
+        android:textSize="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/operacion" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="_"
+        android:id="@+id/dado1"
+        android:textIsSelectable="false"
+        android:textSize="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/operacion" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:id="@+id/igual"
+        android:textIsSelectable="false"
+        android:textSize="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/dado2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="_"
+        android:id="@+id/resultado"
+        android:textIsSelectable="false"
+        android:textSize="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/igual" />
+
+</RelativeLayout>
