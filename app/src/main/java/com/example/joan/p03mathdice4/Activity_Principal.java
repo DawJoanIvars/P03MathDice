@@ -27,6 +27,12 @@ public class Activity_Principal extends FragmentActivity implements Fragment_Lis
             fragment.setArguments(arguments);
             getSupportFragmentManager().beginTransaction().replace(R.id.framelayout_contenedor_detalle, fragment).commit();
 
+            Bundle arguments2 = new Bundle();
+            arguments2.putString(Fragment_Detalle.ARG_ID_ENTRADA_SELECIONADA, id);
+            Fragment_Detalle fragment2 = new Fragment_Detalle();
+            fragment2.setArguments(arguments2);
+            getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout_contenedor_2, fragment2).commit();
+
         } else {
             Intent detailIntent = new Intent(this, Activity_Detalle.class);
             detailIntent.putExtra(Fragment_Detalle.ARG_ID_ENTRADA_SELECIONADA, id);
